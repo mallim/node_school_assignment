@@ -1,3 +1,7 @@
+# Files which i usually ignore
+.idea
+.iml
+
 # Logs
 logs
 *.log
