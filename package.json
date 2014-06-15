@@ -1,0 +1,16 @@
+{
+  "name": "node_school_assignment",
+  "version": "0.0.1",
+  "description": "my non-standard solutions to node school exercises",
+  "author": "Ian lim",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "bl": "^0.8.0",
+    "moment": "^2.7.0"
+  }
+}
