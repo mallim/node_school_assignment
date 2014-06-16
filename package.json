@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "bl": "^0.8.0",
-    "moment": "^2.7.0"
+    "moment": "^2.7.0",
+    "request": "^2.36.0",
+    "duplexer": "^0.1.1"
   }
 }
