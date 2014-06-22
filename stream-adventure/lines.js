@@ -1,7 +1,7 @@
 "use strict";
 
 var stream = require('stream');
-var liner = require('./liner');
+var split = require("split");
 
 var transformer = new stream.Transform( { objectMode: true } );
 transformer._transform = function (line, encoding, done) {
@@ -38,6 +38,6 @@ var rs = process.stdin;
 var os = process.stdout;
 
 // pipe the input to the output, via transformation functions
-rs.pipe(liner)
+rs.pipe(split())
   .pipe(transformer) // transform the data
   .pipe(os); // write the data to the output stream

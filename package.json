@@ -10,9 +10,19 @@
     "grunt-contrib-watch": "^0.6.1"
   },
   "dependencies": {
+    "JSONStream": "^0.8.3",
+    "MD5": "^1.2.1",
     "bl": "^0.8.0",
+    "duplexer": "^0.1.1",
+    "event-stream": "^3.1.5",
+    "highland": "^1.25.4",
+    "http-raw": "^2.1.0",
+    "jsonparse": "0.0.6",
     "moment": "^2.7.0",
     "request": "^2.36.0",
-    "duplexer": "^0.1.1"
+    "split": "^0.3.0",
+    "stream-combiner": "^0.2.1",
+    "tar": "^0.1.19",
+    "tar-stream": "^0.4.2"
   }
 }
