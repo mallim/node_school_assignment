@@ -14,12 +14,12 @@ module.exports = function(grunt) {
 
     watch: {
       js: {
-        files: ['Gruntfile.js','learnyounode/*.js','stream-adventure/*.js'],
+        files: ['Gruntfile.js','learnyounode/*.js','stream-adventure/*.js','bytewiser/*.js'],
         tasks: ['jshint']
       }
     },
     jshint: {
-      files: ['Gruntfile.js','learnyounode/*.js','stream-adventure/*.js'],
+      files: ['Gruntfile.js','learnyounode/*.js','stream-adventure/*.js','bytewiser/*.js'],
       options: {
         jshintrc: '.jshintrc'
       }
